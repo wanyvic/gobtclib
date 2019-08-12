@@ -3,11 +3,11 @@
 A client library with golang for Bitcoin
 
 ![GitHub release](https://img.shields.io/github/release/chainlibs/gobtclib.svg)
-![Github commits (since latest release)](https://img.shields.io/github/commits-since/chainlibs/gobtclib/latest.svg)
+![Github commits (since latest release)](https://img.shields.io/github/commits-since/wanyvic/gobtclib/latest.svg)
 [![Build Status](https://travis-ci.org/chainlibs/gobtclib.svg?branch=master)](https://travis-ci.org/chainlibs/gobtclib)
-[![GitHub issues](https://img.shields.io/github/issues/chainlibs/gobtclib.svg)](https://github.com/chainlibs/gobtclib/issues)
-[![GitHub stars](https://img.shields.io/github/stars/chainlibs/gobtclib.svg)](https://github.com/chainlibs/gobtclib/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/chainlibs/gobtclib/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/chainlibs/gobtclib.svg)](https://github.com/wanyvic/gobtclib/issues)
+[![GitHub stars](https://img.shields.io/github/stars/chainlibs/gobtclib.svg)](https://github.com/wanyvic/gobtclib/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/wanyvic/gobtclib/master/LICENSE)
 [![Gitter chat](https://badges.gitter.im/owner/repo.png)](https://gitter.im/gobtclib/Lobby)
 
 What is Bitcoin?
@@ -142,7 +142,7 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/chainlibs/gobtclib/tags) are created
+completely stable. [Tags](https://github.com/wanyvic/gobtclib/tags) are created
 regularly to indicate new official, stable release versions of Bitcoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).

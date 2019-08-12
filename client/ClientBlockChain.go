@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/chainlibs/gobtclib/results"
-	"github.com/chainlibs/gobtclib/futures"
-	"github.com/chainlibs/gobtclib/utils"
+	"github.com/wanyvic/gobtclib/results"
+	"github.com/wanyvic/gobtclib/futures"
+	"github.com/wanyvic/gobtclib/utils"
 	"encoding/hex"
 )
 

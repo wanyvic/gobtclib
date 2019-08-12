@@ -2,8 +2,8 @@ package futures
 
 import (
 	"encoding/json"
-	"github.com/chainlibs/gobtclib/base"
-	"github.com/chainlibs/gobtclib/results"
+	"github.com/wanyvic/gobtclib/base"
+	"github.com/wanyvic/gobtclib/results"
 )
 
 /*

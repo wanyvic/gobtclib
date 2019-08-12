@@ -1,7 +1,7 @@
 package demos
 
 import (
-	"github.com/chainlibs/gobtclib/client"
+	"github.com/wanyvic/gobtclib/client"
 )
 
 var cli *client.Client

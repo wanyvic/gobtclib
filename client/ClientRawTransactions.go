@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/chainlibs/gobtclib/futures"
+	"github.com/wanyvic/gobtclib/futures"
 )
 
 /*

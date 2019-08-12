@@ -2,7 +2,6 @@ package demos
 
 import (
 	"github.com/gobasis/log"
-
 )
 
 const address = "mrVpnAaPap8BXLnYBc5pNfeMwwhvKcqvMq"
@@ -19,6 +18,7 @@ const address2pubkey = "03c7ffdaf2ef6f6887c05b20cb541ea55b3731cbeb9b3a73e8aa601a
 const address2hex = "0014c83fcb8543d609e52a04acc355da4839299d6a31"
 const address3pubkey = "03b8f68c4a59fde8e2698c63e86801fa5660467860384bf71d69a1c90d8730712d"
 const address3hex = "001462ae6c81f7f63b35e780bdb8f61c25b293bc5622"
+
 //2My3izAWtnSDY4Evv7AWw9ci2fM3Tf35fC5	cNj4yz9UkRrravto6GYYgoUPdVJtpshD4BKe5nyR5fof1u5gFaca
 func WalletTestInitialize() {
 	addr, err := cli.GetAddressInfo(address)
@@ -293,11 +293,11 @@ func GetNewAddressTest() {
 }
 
 /*
-Description: 
+Description:
 A demo test of GetNewAddressEntireTest.
  * Author: architect.bian
  * Date: 2018/10/15 23:44
- */
+*/
 func GetNewAddressEntireTest() {
 	//result, err := cli.GetNewAddressEntire("", "legacy")
 	//if err != nil {
@@ -812,6 +812,16 @@ func SendManyTest() {
 		log.Fatal("", "error", err)
 	}
 	log.Info("SendMany", "result", result)
+}
+func SendManyEntires() {
+	to := make(map[string]interface{})
+	to[addressTo] = 10
+	fee := []string{addressTo}
+	hash, err := cli.SendManyEntire("", to, 6, true, "", fee, true)
+	if err != nil {
+		log.Fatal("", "error", err)
+	}
+	log.Info("SendMany", "result", hash)
 }
 
 /*

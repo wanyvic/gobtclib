@@ -1,6 +1,6 @@
 package btc
 
-import "github.com/chainlibs/gobtclib/client"
+import "github.com/wanyvic/gobtclib/client"
 
 /*
 Description:

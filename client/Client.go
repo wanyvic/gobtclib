@@ -8,11 +8,11 @@ import (
 	"io/ioutil"
 	"fmt"
 	"bytes"
-	"github.com/chainlibs/gobtclib/utils"
+	"github.com/wanyvic/gobtclib/utils"
 	"encoding/json"
 	"github.com/gobasis/log"
-	"github.com/chainlibs/gobtclib/base"
-	"github.com/chainlibs/gobtclib/futures"
+	"github.com/wanyvic/gobtclib/base"
+	"github.com/wanyvic/gobtclib/futures"
 )
 
 /*
