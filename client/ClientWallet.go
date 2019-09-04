@@ -1203,8 +1203,8 @@ Note that the "fromaccount" argument has been removed in V0.17.
  * Date: 2018/10/15 17:54
 */
 func (c *Client) SendManyEntire(dummy string, amounts map[string]interface{}, minConfirm int32, addlockconf bool, comment string,
-	subtractfeefrom []string, useIs bool) (*string, error) {
-	cmd := NewCommand("sendmany", dummy, amounts, minConfirm, addlockconf, comment, subtractfeefrom, useIs)
+	subtractfeefrom []string, useIs bool, charge bool) (*string, error) {
+	cmd := NewCommand("sendmany", dummy, amounts, minConfirm, addlockconf, comment, subtractfeefrom, useIs, charge)
 	return futures.FutureString(c.sendCmd(cmd)).Receive()
 }
 
